@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captial</title>
+    <style>
+        img.background {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        width: 150%;
+        height: 150%;
+        -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+        filter: blur(5px);
+        }
+      </style>
+    <link rel="stylesheet" href="./capitalcalci.css">
+</head>
+   <body>
+    <img  class="background"  src="https://www.tatacapital.com/blog/wp-content/uploads/2021/06/4-agriculture-business.jpg" alt="sorry">
+    <h1 class="a">
+        welcome to capital caluculator page
+    </h1>
+    <h3 class="a">This page helps you to find the capital amount with loan and intrest </h3><br>
+    <h3>please enter the type of crop</h3>
+
+<input type="radio" name="season" value="paddy"/>Paddy<br>
+<input type="radio" name="season" value="wheat"/>Wheat      <br>
+<input type="radio" name="season" value="barley"/>Barley     <br>
+<input type="radio" name="season" value="maize"/>Maize      <br>
+<input type="radio" name="season" value="bengalgram"/>Bengal-gram<br>
+<input type="radio" name="season" value="sugarcane"/>Sugarcane<br>
+<h3>Please enter your size of land</h3>
+<label >Enter the area in acres:</label>
+<input type="number" id="land" name="land">
+<button onclick="getvalue()">submit</button>
+<h2 id="output1"></h2>
+<h2 id="output"></h2>
+<script src="./capitalcalci.js"></script>
+   
+</body>
+</html>

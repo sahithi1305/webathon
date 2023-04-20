@@ -1,0 +1,16 @@
+body{
+    background-repeat: no-repeat;
+    margin: 0;
+    text-align: center;
+    background-image: url("https://www.shutterstock.com/image-photo/hand-farmer-giving-fertilizer-young-260nw-1160780968.jpg");
+background-size: cover;
+font-size: 20px;
+}
+.a{
+    position: relative;
+    text-align: center;
+}
+.b{
+    font-size: 23px;
+    color: aqua;
+}

@@ -1,0 +1,16 @@
+body{
+    background-repeat: no-repeat;
+    background-color:#fdf6f6;
+    text-align: center;
+    background-image: url("https://www.tatacapital.com/blog/wp-content/uploads/2021/06/4-agriculture-business.jpg");
+    background-size: cover;
+    font-size: 20px;
+    backdrop-filter: blur(2px);
+}
+.a{
+    position: relative;
+    text-align: center;
+}
+.b{
+    font-size: 23px;
+}
